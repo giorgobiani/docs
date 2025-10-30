@@ -11,6 +11,9 @@
   "fonts": {
     "family": "Noto Sans Georgian"
   },
+  "icons": {
+    "library": "lucide"
+  },
   "navigation": {
     "tabs": [
       {
@@ -22,8 +25,7 @@
             "icon": "rocket",
             "pages": [
               "docs/shared/quickstart/index",
-              "docs/shared/quickstart/key-terms",
-              "docs/shared/quickstart/first-look",
+              "docs/shared/quickstart/user-interface",
               "docs/shared/quickstart/user-and-profile"
             ]
           },
