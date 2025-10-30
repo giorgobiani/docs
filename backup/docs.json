@@ -1,0 +1,62 @@
+{
+  "$schema": "https://mintlify.com/docs.schema.json",
+  "theme": "mint",
+  "name": "Optio - პლატფორმის დოკუმენტაცია",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "logo": {
+    "light": "../../assets/logo/light.png",
+    "dark": "../../assets/logo/dark.png"
+  },
+  "favicon": {
+    "light": "../../assets/favicon/light.png",
+    "dark": "../../assets/favicon/dark.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Banking",
+        "icon": "landmark",
+        "pages": ["en/banking/introduction"]
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "ka",
+      "tabs": [
+        {
+          "tab": "საბანკო",
+          "icon": "landmark",
+          "pages": ["ka/banking/introduction"]
+        },
+        {
+          "tab": "სადაზღვევო",
+          "icon": "umbrella",
+          "pages": ["ka/insurance/introduction"]
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "tabs": [
+        {
+          "tab": "Banking",
+          "icon": "landmark",
+          "pages": ["en/banking/introduction"]
+        },
+        {
+          "tab": "Insurance",
+          "icon": "umbrella",
+          "pages": ["en/insurance/introduction"]
+        }
+      ]
+    }
+  ]
+}

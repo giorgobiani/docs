@@ -1,91 +1,113 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Optio Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "fonts": {
+    "family": "Noto Sans Georgian"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "საფინანსო",
+        "icon": "landmark",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "შესავალი",
+            "icon": "rocket",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "docs/shared/quickstart/index",
+              "docs/shared/quickstart/key-terms",
+              "docs/shared/quickstart/first-look",
+              "docs/shared/quickstart/user-and-profile"
             ]
           },
           {
-            "group": "Customization",
+            "group": "კლიენტები",
+            "icon": "users",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "docs/shared/persons/index",
+              "docs/shared/persons/contact-lists",
+              "docs/shared/persons/customer-list",
+              "docs/banking/persons/customer-360",
+              "docs/banking/persons/segment-designer",
+              "docs/shared/persons/segment-list"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "კამპანიები",
+            "icon": "megaphone",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "docs/shared/campaigns/index",
+              "docs/shared/campaigns/outreach-campaign",
+              "docs/shared/campaigns/journey-campaign",
+              "docs/shared/campaigns/campaign-list"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "სადაზღვევო",
+        "icon": "umbrella",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "შესავალი",
+            "icon": "rocket",
             "pages": [
-              "api-reference/introduction"
+              "docs/shared/quickstart/index",
+              "docs/shared/quickstart/key-terms",
+              "docs/shared/quickstart/first-look",
+              "docs/shared/quickstart/user-and-profile"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "კლიენტები",
+            "icon": "users",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "docs/shared/persons/index",
+              "docs/shared/persons/contact-lists",
+              "docs/shared/persons/customer-list",
+              "docs/insurance/persons/customer-360",
+              "docs/insurance/persons/segment-designer",
+              "docs/shared/persons/segment-list"
+            ]
+          },
+          {
+            "group": "კამპანიები",
+            "icon": "megaphone",
+            "pages": [
+              "docs/shared/campaigns/index",
+              "docs/shared/campaigns/outreach-campaign",
+              "docs/shared/campaigns/journey-campaign",
+              "docs/shared/campaigns/campaign-list"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "href": "https://mintlify.com/docs",
+        "icon": "book-open-cover"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://mintlify.com/blog",
+        "icon": "newspaper"
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
@@ -102,15 +124,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
