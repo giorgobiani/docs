@@ -14,96 +14,135 @@
   "icons": {
     "library": "lucide"
   },
+  "redirects": [
+    {
+      "source": "docs/banking/quickstart/user-interface",
+      "destination": "docs/shared/quickstart/user-interface"
+    }
+  ],
   "navigation": {
-    "tabs": [
-      {
-        "tab": "საფინანსო",
-        "icon": "landmark",
-        "groups": [
-          {
-            "group": "შესავალი",
-            "icon": "rocket",
-            "pages": [
-              "docs/shared/quickstart/index",
-              "docs/shared/quickstart/user-interface",
-              "docs/shared/quickstart/user-and-profile"
-            ]
-          },
-          {
-            "group": "კლიენტები",
-            "icon": "users",
-            "pages": [
-              "docs/shared/persons/index",
-              "docs/shared/persons/contact-lists",
-              "docs/shared/persons/customer-list",
-              "docs/banking/persons/customer-360",
-              "docs/banking/persons/segment-designer",
-              "docs/shared/persons/segment-list"
-            ]
-          },
-          {
-            "group": "კამპანიები",
-            "icon": "megaphone",
-            "pages": [
-              "docs/shared/campaigns/index",
-              "docs/shared/campaigns/outreach-campaign",
-              "docs/shared/campaigns/journey-campaign",
-              "docs/shared/campaigns/campaign-list"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "სადაზღვევო",
-        "icon": "umbrella",
-        "groups": [
-          {
-            "group": "შესავალი",
-            "icon": "rocket",
-            "pages": [
-              "docs/shared/quickstart/index",
-              "docs/shared/quickstart/key-terms",
-              "docs/shared/quickstart/first-look",
-              "docs/shared/quickstart/user-and-profile"
-            ]
-          },
-          {
-            "group": "კლიენტები",
-            "icon": "users",
-            "pages": [
-              "docs/shared/persons/index",
-              "docs/shared/persons/contact-lists",
-              "docs/shared/persons/customer-list",
-              "docs/insurance/persons/customer-360",
-              "docs/insurance/persons/segment-designer",
-              "docs/shared/persons/segment-list"
-            ]
-          },
-          {
-            "group": "კამპანიები",
-            "icon": "megaphone",
-            "pages": [
-              "docs/shared/campaigns/index",
-              "docs/shared/campaigns/outreach-campaign",
-              "docs/shared/campaigns/journey-campaign",
-              "docs/shared/campaigns/campaign-list"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "global": {
     "anchors": [
       {
-        "anchor": "Documentation",
-        "href": "https://mintlify.com/docs",
-        "icon": "book-open-cover"
+        "anchor": "რა არის Optio?",
+        "icon": "telescope",
+        "pages": ["index"]
+      }
+    ],
+    "tabs": [
+      {
+        "tab": "რა არის Optio?",
+        "icon": "telescope",
+        "pages": ["index"]
       },
       {
-        "anchor": "Blog",
-        "href": "https://mintlify.com/blog",
-        "icon": "newspaper"
+        "tab": "დოკუმენტაცია",
+        "icon": "book-open-text",
+        "products": [
+          {
+            "product": "საფინანსო",
+            "icon": "landmark",
+            "groups": [
+              {
+                "group": "შესავალი",
+                "icon": "rocket",
+                "pages": [
+                  "docs/banking/quickstart/index",
+                  "docs/banking/quickstart/user-interface",
+                  "docs/banking/quickstart/user-and-profile"
+                ]
+              },
+              {
+                "group": "კლიენტები",
+                "icon": "users",
+                "pages": [
+                  "docs/banking/persons/index",
+                  "docs/banking/persons/contact-lists",
+                  "docs/banking/persons/customer-list",
+                  "docs/banking/persons/customer-360",
+                  "docs/banking/persons/segment-designer",
+                  "docs/banking/persons/segment-list"
+                ]
+              },
+              {
+                "group": "კამპანიები",
+                "icon": "megaphone",
+                "pages": [
+                  "docs/banking/campaigns/index",
+                  "docs/banking/campaigns/campaign-list",
+                  {
+                    "group": "ახალი კამპანია",
+                    "pages": [
+                      "docs/banking/campaigns/outreach-campaign",
+                      "docs/banking/campaigns/journey-campaign"
+                    ]
+                  },
+                  "docs/banking/campaigns/campaign-overview",
+                  {
+                    "group": "კამპანიის განაწილება",
+                    "pages": [
+                      "docs/banking/campaigns/callcenter-distribution",
+                      "docs/banking/campaigns/regional-distribution",
+                      "docs/banking/campaigns/branch-distribution"
+                    ]
+                  },
+                  "docs/banking/campaigns/call-management"
+                ]
+              }
+            ]
+          },
+          {
+            "product": "სადაზღვევო",
+            "icon": "umbrella",
+            "groups": [
+              {
+                "group": "შესავალი",
+                "icon": "rocket",
+                "pages": [
+                  "docs/insurance/quickstart/index",
+                  "docs/insurance/quickstart/user-interface",
+                  "docs/insurance/quickstart/user-and-profile"
+                ]
+              },
+              {
+                "group": "კლიენტები",
+                "icon": "users",
+                "pages": [
+                  "docs/insurance/persons/index",
+                  "docs/insurance/persons/contact-lists",
+                  "docs/insurance/persons/customer-list",
+                  "docs/insurance/persons/customer-360",
+                  "docs/insurance/persons/segment-designer",
+                  "docs/insurance/persons/segment-list"
+                ]
+              },
+              {
+                "group": "კამპანიები",
+                "icon": "megaphone",
+                "pages": [
+                  "docs/insurance/campaigns/index",
+                  "docs/insurance/campaigns/campaign-list",
+                  {
+                    "group": "ახალი კამპანია",
+                    "pages": [
+                      "docs/insurance/campaigns/outreach-campaign",
+                      "docs/insurance/campaigns/journey-campaign"
+                    ]
+                  },
+                  "docs/insurance/campaigns/campaign-overview",
+                  {
+                    "group": "კამპანიის განაწილება",
+                    "pages": [
+                      "docs/insurance/campaigns/callcenter-distribution",
+                      "docs/insurance/campaigns/regional-distribution",
+                      "docs/insurance/campaigns/branch-distribution"
+                    ]
+                  },
+                  "docs/insurance/campaigns/call-management"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -114,15 +153,10 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Visit Website",
+        "href": "https://optio.ai"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
